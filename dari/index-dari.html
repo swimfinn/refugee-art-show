@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugee Art Show</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a095877f3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      h1 {
+        font-family: "Aboreto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      p {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      i,
+      .fa-brands {
+        color: #146ebe;
+        transition: color 230ms ease-in-out;
+      }
+
+      .nav-link,
+      .dropdown-item {
+        color: black;
+        transition: color 230ms ease-in-out;
+      }
+
+      i:hover,
+      .fa-brands:hover,
+      .nav-link:hover,
+      .dropdown-item:hover {
+        color: #46a87a;
+      }
+
+      .partners {
+        transition: transform 230ms ease-in-out;
+      }
+
+      .partners:hover {
+        transform: scale(1.2);
+      }
+
+      p,
+      footer {
+        display: block;
+        text-align: right;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 30px;
+        }
+
+        h5 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+
+        img {
+          max-width: 100%;
+        }
+
+        .row {
+          display: block;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #f5efe7">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/src/art-show-pic.png" style="width: 30px; height: 30px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/dari/index-dari.html"
+                >صفحه نخست</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dari/class-info-dari.html"
+                >اطلاعات کلاس</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dari/teachers-dari.html">معلمان</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/dari/art-show-dari.html">نمایش هنری</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/dari/faq-dari.html">سوالات متداول</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dari/contact-dari.html"
+                >اطلاعات تماس</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                زبان ها
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/index.html">English</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">فارسی دری</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pashto/index-pashto.html"
+                    >پښتو</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/arabic/index-arabic.html"
+                    >العربية</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/ukrainian/index-ukrainian.html"
+                    >українська</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/spanish/index-spanish.html"
+                    >español</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/hatian-creole/index-creole.html"
+                    >Kreyòl Ayisyen</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+      <img class="w-100" src="/dari/src/art-headline-dari.jpg" />
+    </div>
+    <div class="mt-3 ms-5 me-5">
+      <p>
+        ما سه معلم ESL هستیم که به تدریس و هنر علاقه‌مندیم و در عین حال
+        می‌خواهیم به جامعه برگشت دهیم. با روندی که در جهان رو به جلو است و با
+        ورود پناهندگان به ایالات متحده، فکر کردیم که ارائه کلاس‌های هنری برای
+        پناهندگانی که قبلاً هنرمندان حرفه‌ای هستند یا می‌خواهند هنر خود را به
+        دنیای بعدی ببرند، ایده عالی‌ای است.
+      </p>
+      <p>
+        دوره آنلاین ما برای پناهندگانی ساخته شده است که دوست دارند وارد دنیای
+        هنر شوند یا فرصتی برای به اشتراک گذاشتن داستان یا اشتیاق خود از طریق هنر
+        داشته باشند. 6 کلاس وجود دارد که در آن شما خواهید آموخت در نمایش‌های
+        هنری شرکت کردن، انتشار کتاب، بازاریابی هنری، نوشتن کمک هزینه تحصیلی و
+        دیدن اینکه هنر چگونه می‌تواند درمانی باشد. در پایان برنامه، پناهندگان
+        می‌توانند آثار هنری خود را در یک گالری به نمایش بگذارند و در صورت تمایل
+        با بازدیدکنندگان و خریداران احتمالی درباره آثارشان صحبت کنند
+      </p>
+      <p>
+        این تجربه عملی به پناهندگان کمک می‌کند تا مهارت‌های کلیدی صنعت هنر را
+        بیاموزند و از طریق خلاقیت اعتماد و جامعه را ایجاد کنند. همچنین به جامعه
+        محلی فرصتی برای درک بیشتر از تجربیات پناهندگان می‌دهد و به ایجاد
+        ارتباطات قوی‌تر و رفع هرگونه تصورات غلط کمک می‌کند.
+      </p>
+    </div>
+    <footer class="ms-5 mb-5">
+      <p class="d-flex justify-content-center">
+        <i class="fa-brands fa-facebook ms-3 me-3" style="font-size: 30px"></i>
+        <i class="fa-brands fa-instagram ms-3 me-3" style="font-size: 30px"></i>
+        <a href="mailto:eileen.f@operationshouldertoshoulder.us">
+          <i class="fa-solid fa-envelope ms-3 me-3" style="font-size: 30px"></i
+        ></a>
+      </p>
+    </footer>
+    <footer class="mb-5">
+      <p class="me-5">
+        <b><span>:</span>مشارکت و همکاری</b>
+      </p>
+      <div class="row d-flex justify-content-around">
+        <div class="col d-flex justify-content-around">
+          <a href="https://www.operationshouldertoshoulder.us" target="_blank"
+            ><img
+              class="partners shadow-lg"
+              src="/src/oss-logo.png"
+              style="width: 200px"
+              alt="Operation Shoulder to Shoulder"
+          /></a>
+        </div>
+        <div class="col d-flex justify-content-around">
+          <a href="https://www.theseasonsyakima.com/gallery" target="_blank"
+            ><img
+              class="partners shadow-lg"
+              src="/src/seasons.jpg"
+              style="width: 200px"
+              alt="The Seasons Gallery & Grill"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

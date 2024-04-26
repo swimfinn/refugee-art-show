@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugee Art Show</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a095877f3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      h1 {
+        font-family: "Aboreto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      p {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      i,
+      .fa-brands {
+        color: #146ebe;
+        transition: color 230ms ease-in-out;
+      }
+
+      .nav-link,
+      .dropdown-item {
+        color: black;
+        transition: color 230ms ease-in-out;
+      }
+
+      i:hover,
+      .fa-brands:hover,
+      .nav-link:hover,
+      .dropdown-item:hover {
+        color: #46a87a;
+      }
+
+      .partners {
+        transition: transform 230ms ease-in-out;
+      }
+
+      .partners:hover {
+        transform: scale(1.2);
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 30px;
+        }
+
+        h5 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+
+        img {
+          max-width: 100%;
+        }
+
+        .row {
+          display: block;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #f5efe7">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/src/art-show-pic.png" style="width: 30px; height: 30px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/ukrainian/index-ukrainian.html"
+                >Домашня сторінка</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ukrainian/class-info-ukrainian.html">
+                Інформація про клас</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ukrainian/teachers-ukrainian.html"
+                >Вчителі</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/ukrainian/art-show-ukrainian.html"
+                >Художня виставка</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/ukrainian/faq-ukrainian.html"
+                >Поширені запитання</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/ukrainian/contact-ukrainian.html"
+                >Контактна інформація</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Мови
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/index.html">English</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/dari/index-dari.html"
+                    >فارسی دری</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pashto/index-pashto.html"
+                    >پښتو</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/arabic/teachers-arabic.html"
+                    >العربية</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">українська</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/spanish/index-spanish.html"
+                    >español</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="/hatian-creole/index-creole.html"
+                    >Kreyòl Ayisyen</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+      <img class="w-100" src="/ukrainian/src/headline-ukrainian.jpeg" />
+    </div>
+    <div class="mt-3 ms-5 me-5">
+      <p>
+        Ми - троє вчителів англійської як другої мови, які захоплені навчанням
+        та мистецтвом, і прагнемо повернути щось громаді. З огляду на те, що
+        відбувається у світі, та з припливом біженців до США, ми подумали, що
+        було б чудовою ідеєю запропонувати художні курси для біженців, які вже є
+        професійними художниками або хотіли б підняти свою творчість на вищий
+        рівень.
+      </p>
+      <p>
+        Наш онлайн-курс призначений для біженців, які хочуть увійти у світ
+        мистецтва або отримати можливість поділитися своєю історією чи
+        пристрастю через мистецтво. Курс складається з 6 занять, де ви
+        дізнаєтесь про участь у художніх виставках, публікацію книг, мистецький
+        маркетинг, написання грантів і те, як мистецтво може бути терапевтичним.
+        Наприкінці програми біженці зможуть показати свої твори в галереї і,
+        якщо захочуть, поспілкуватися з відвідувачами та потенційними покупцями
+        про свою творчість.
+      </p>
+      <p>
+        Цей практичний досвід допомагає біженцям освоїти ключові навички в
+        мистецькій індустрії, а також розвинути впевненість і почуття спільноти
+        через творчість. Він також надає місцевій громаді можливість краще
+        зрозуміти досвід біженців, що сприяє зміцненню зв'язків та спростуванню
+        можливих непорозумінь.
+      </p>
+    </div>
+    <footer class="ms-5 mb-5">
+      <p class="d-flex justify-content-center">
+        <i class="fa-brands fa-facebook ms-3 me-3" style="font-size: 30px"></i>
+        <i class="fa-brands fa-instagram ms-3 me-3" style="font-size: 30px"></i>
+        <a href="mailto:eileen.f@operationshouldertoshoulder.us">
+          <i class="fa-solid fa-envelope ms-3 me-3" style="font-size: 30px"></i
+        ></a>
+      </p>
+    </footer>
+    <footer class="mb-5">
+      <p class="ms-5"><b>Партнерства:</b></p>
+      <div class="row d-flex justify-content-around">
+        <div class="col d-flex justify-content-around">
+          <a href="https://www.operationshouldertoshoulder.us" target="_blank"
+            ><img
+              class="partners shadow-lg"
+              src="/src/oss-logo.png"
+              style="width: 200px"
+              alt="Operation Shoulder to Shoulder"
+          /></a>
+        </div>
+        <div class="col d-flex justify-content-around">
+          <a href="https://www.theseasonsyakima.com/gallery" target="_blank"
+            ><img
+              class="partners shadow-lg"
+              src="/src/seasons.jpg"
+              style="width: 200px"
+              alt="The Seasons Gallery & Grill"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

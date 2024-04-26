@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugee Art Show</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a095877f3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      h1 {
+        font-family: "Aboreto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      p, h6 {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .fa-brands {
+        color: #146ebe;
+        transition: color 230ms ease-in-out;
+      }
+
+      .nav-link, .dropdown-item {
+        color: black;
+        transition: color 230ms ease-in-out;
+      }
+
+      .navbar {
+          background-color: #f5efe7;
+      }
+
+      .fa-brands:hover, .nav-link:hover, .dropdown-item:hover {
+        color: #46a87a;
+      }
+
+      .card-body {
+        display: block;
+        text-align: right;
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+            font-size: 30px
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        img {
+            max-width: 100%;
+            }
+
+        .row {
+            display: block;
+            text-align: center;
+        }
+
+      }
+    </style>
+  </head>
+  <body style="background-color: #f5efe7">
+
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/src/art-show-pic.png" style="width: 30px; height: 30px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/arabic/index-arabic.html"
+                >الصفحة الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/class-info-arabic.html"
+                >معلومات الصفوف</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"
+                aria-current="page" href="/arabic/teachers-arabic.html"
+                >المعلمون</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/art-show-arabic.html"
+                >عرض فني</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/faq-arabic.html"
+                >الأسئلة الشائعة</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/contact-arabic.html"
+                >معلومات الاتصال</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                زبان ها
+              </a>
+              <ul class="dropdown-menu">
+               <li><a class="dropdown-item" href="/teachers.html">English</a></li>
+               <li><a class="dropdown-item" href="/dari/teachers-dari.html">فارسی دری</a></li>
+              <li><a class="dropdown-item" href="/pashto/teachers-pashto.html">پښتو</a></li>
+              <li><a class="dropdown-item" href="#">العربية</a></li>
+              <li><a class="dropdown-item" href="/ukrainian/teachers-ukrainian.html">українська</a></li>
+              <li><a class="dropdown-item" href="/spanish/teachers-spanish.html">español</a></li>
+              <li><a class="dropdown-item" href="/hatian-creole/teachers-creole.html">Kreyòl Ayisyen</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+      <img class="w-100" src="/arabic/src/teachers-headline-arabic.jpeg" />
+    </div>
+
+<div class="d-flex justify-content-center mt-5">
+    <div class="row">
+        <div class="col">
+     <div class="card p-3" style="width: 18rem">
+      <img
+        src="/src/eileen-finn-art-bio.png"
+        class="card-img-top"
+        alt="Professor Eileen Finn"
+      />
+      <div class="card-body p-1">
+        <h5 class="card-title mt-3">Eileen Finn</h5>
+        <h6 class="card-text"><i>کارشناس زبان انگلیسی</br>هنرمند حرفه‌ای</br>نویسنده<h6></i>
+        <p class="card-text">
+          ايلين لديها 25 عامًا من الخبرة في تدريس اللغة الإنجليزية في
+           9 دول مختلفة وتتحدث 4 لغات. لقد عملت أيضًا مع اللاجئين لمدة 8 سنوات، وخصوصاً مع الأفراد
+           من أوكرانيا والعراق وسوريا وإثيوبيا وأفغانستان وفنزويلا ونيكاراجوا، مساعدةً لهم على
+           الاندماج في المجتمعات الجديدة. إيلين فنانة محترفة وكاتبة منشورة. لقد عرضت أعمالها
+           في مختلف الفعاليات في شمال غرب المحيط الهادئ وتلقت منحًا لمشاريعها، مما يدل على
+           قدراتها في عالم الفن. تم عرض أعمالها في الصحف والمدونات ووسائل التواصل الاجتماعي.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <div class="col">
+    <div class="card p-3" style="width: 18rem">
+      <img
+        src="/src/nicole-haning.png"
+        class="card-img-top"
+        alt="Professor Nicole Haning"
+      />
+      <div class="card-body p-1">
+        <h5 class="card-title mt-3">Nicole Haning</h5>
+        <h6 class="card-text"><i>زبان‌شناس انگلیسی<br/>هنرمند حرفه‌ای</br>نویسنده<h6></i>
+        <p class="card-text">نيكول لديها
+           تقريباً 20 عامًا من التدريس في اللغة الإنجليزية وقد درّست في 
+          خمس دول وتجيد ثلاث لغات. عملت مع اللاجئين من آسيا والشرق الأوسط 
+          وإفريقيا وكوبا. صاغت نيكول كتابًا وهو أول "مرجع وتعليم المهارات 
+          الثقافية" لمركز دون بوسكو للاجئين بالعديد من اللغات وكتبته، 
+          وحاليًا تعمل على كتاب للأطفال. بالإضافة إلى العمل مع اللاجئين،
+           فهي فنانة محترفة تنمو في وسائل التواصل الاجتماعي. قدرتها على 
+          العمل مع مجموعات متنوعة، وفهمها لعملية تعلم اللغة، ومهاراتها في
+           تصميم المناهج الدراسية، وإبداعها جعلتها قيمة كبيرة للفريق.
+        </p>
+      </div>
+    </div>
+    </div>
+
+<div class="col">
+    <div class="card p-3" style="width: 18rem">
+      <img
+        src="/src/heidi-demello.png"
+        class="card-img-top"
+        alt="Professor Heidi Demello"
+      />
+      <div class="card-body p-1">
+        <h5 class="card-title mt-3">Heidi Demello</h5>
+        <h6 class="card-text"><i>کارشناس زبان انگلیسی</br>هنرمند حرفه‌ای</h6></i>
+        <p class="card-text">هايدي لديها
+           أكثر من 20 عامًا من الخبرة في تدريس اللغة الإنجليزية في
+          الجامعات الكبيرة والمدارس الخاصة والكليات المجتمعية في
+           3 دول وتتحدث عدة لغات. عملت هايدي كمتطوعة في برنامج READ/San 
+           Diego Adult Literacy Program كمدربة للمهارات القرائية،
+            حيث عملت بشكل فردي مع اللاجئين البالغين.
+            صممت مناهج تعليمية في مجالات الصوتيات
+            والقراءة والكتابة. من خلال هذا العمل،
+            اكتسبت هايدي تقديرًا عميقًا للتحديات 
+           التي يواجهها اللاجئون أثناء إعادة
+            التوطين في الولايات المتحدة وضمان
+            الوصول إلى مستويات جيدة من مهارات
+            القراءة والكتابة لتحقيق أهدافهم الشخصية
+            والمهنية. حاليًا، تدرس هايدي دروس ESL ودورة كتابة 
+            الوظائف والكليات للاجئين البالغين والمهاجرين
+             في كلية مجتمعية في جنوب 
+            أوريغون. نظرًا لتدفق اللاجئين
+             الأوكرانيين والطلاب من هايتي 
+            وميانمار مؤخرًا، تولي هايدي 
+            اهتمامًا خاصًا بممارسات التعليم 
+            الحساسة للصدمات والفحوصات 
+            الاجتماعية والعاطفية
+            وتعزيز مجتمع قوي داخل الفصل.
+        </p>
+      </div>
+    </div>
+    </div>
+</div>
+  </body>
+</html>

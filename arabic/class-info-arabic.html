@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugee Art Show</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a095877f3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        h1 {
+        font-family: "Aboreto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .nav-link, .dropdown-item {
+            color: black;
+            transition: color 230ms ease-in-out;
+        }
+
+        .nav-link:hover, .dropdown-item:hover {
+            color: #46a87a;
+        }
+
+        .navbar {
+            background-color: #f5efe7 !important;
+        }
+
+        p, table, li {
+        display: block;
+        text-align: right;
+        }
+
+        @media (max-width: 600px) {
+        h1 {
+            font-size: 30px
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        img {
+            max-width: 100%;
+            }
+
+        .row {
+            display: block;
+            text-align: center;
+        }
+
+        th, td {
+
+            font-size: 10px;
+
+        }
+
+      }
+        
+    </style>
+  </head>
+  <body style="background-color: #f5efe7">
+
+
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/src/art-show-pic.png" style="width: 30px; height: 30px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/arabic/index-arabic.html"
+                >الصفحة الرئيسية</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active"
+                aria-current="page" href="/arabic/class-info-arabic.html"
+                >معلومات الصفوف</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/teachers-arabic.html"
+                >المعلمون</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/art-show-arabic.html"
+                >عرض فني</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/faq-arabic.html"
+                >الأسئلة الشائعة</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/arabic/contact-arabic.html"
+                >معلومات الاتصال</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                زبان ها
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="class-info-arabic.html">English</a></li>
+               <li><a class="dropdown-item" href="/dari/class-info-dari.html">فارسی دری</a></li>
+              <li><a class="dropdown-item" href="/pashto/class-info-pashto.html">پښتو</a></li>
+              <li><a class="dropdown-item" href="#">العربية</a></li>
+              <li><a class="dropdown-item" href="/ukrainian/class-info-ukrainian.html">українська</a></li>
+              <li><a class="dropdown-item" href="/spanish/class-info-spanish.html">español</a></li>
+              <li><a class="dropdown-item" href="/hatian-creole/class-info-creole.html">Kreyòl Ayisyen</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="d-flex justify-content-center">
+      <img class="w-100" src="/arabic/src/class-info-arabic.jpeg" />
+    </div>
+    <div class="ms-5 me-5 mt-5">
+      <ul style="list-style-type: none">
+
+        <li>
+          <b>من يمكنه الانضمام؟</b> هيُشجع الأشخاص الذين هم
+           لاجئون ويعيشون في ولاية واشنطن أو القرب منها على تقديم طلب.
+        </li>
+        <li>
+          <b>متى؟</b> الفصول من 20 مايو إلى 5 يونيو يومي الاثنين والأربعاء.
+        </li>
+        <li><b>ما الوقت؟</b>  الساعة 6:00 مساءً - الساعة 7:30 مساءً</li>
+        <li><b>أين؟</b> Zoom عبر الإنترنت</li>
+        <li><b>هزینه؟</b> هذا مجاني.</li>
+      </ul>
+    </div>
+    <p class="me-5">يرجى ملء النموذج أدناه للمشاركة في الصف.</p>
+    <p class="me-5"><a href="https://docs-google-com.translate.goog/forms/d/1MIF5EM3iMxMOw8Bwz6y3wbm8vAnmhNaJw1eQbBDY3DM/viewform?edit_requested=true&_x_tr_sl=en&_x_tr_tl=ar&_x_tr_hl=en&_x_tr_pto=wapp" target="_blank">فرم درخواست</a></p>
+    <p class="me-5"> Eileen Finn إذا كان لديك أي أسئلة، يرجى الاتصال      
+      <a href="mailto:eileen.f@operationshouldertoshoulder.us"
+        ><i class="fa-solid fa-envelope ms-1" style="font-size: 18px"></i
+      ></a>
+    </p>
+    <div class="d-flex justify-content-center mt-5 mb-2">
+      <h1>برنامج تعليمي</h1>
+    </div>
+    <div class="table-responsive-sm table-responsive-md">
+    <table class="table table-success table-striped-columns">
+  <tr>
+      <th scope="col">#</th>
+      <th scope="col">التاريخ</th>
+      <th scope="col">الوقت</th>
+      <th scope="col">المدرس</th>
+      <th scope="col">عنوان الصف</th>
+      <th scope="col">وصف الدورة</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>يوم الاثنين الساعة 6 مساءً بتوقيت المحيط الهادي</td>
+      <td>دوشنبه ساعت ۶ عصر به وقت PST</td>
+     <td>Nicole Haning</td>
+      <td>ما هي الفن وعملية المعرض؟</td>
+      <td>
+      في هذه الفصول، ستتعلم ما هو الفن وكيفية عرضه في المعارض.
+       سنتحدث عن ما يعتبر الفن، وعملية عرض الفن في المعارض، وعناصر المعرض. وفي
+       نهاية هذا الدرس، ستكون لديك فهم أفضل لمعنى الفن وكيفية عمل عملية المعرض.
+       إذا كنت مهتمًا بالفن أو تفكر في وظيفة في عالم الفن، فهذا الفصل ممتاز .</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>٢٢ مايو</td>
+      <td>الأربعاء الساعة ٦ مساءً بتوقيت المحيط الهادئ</td>
+      <td>Heidi Demello</td>
+      <td>الفن العلاجي: الشفاء من خلال الإبداع</td>
+      <td>دفي هذه الصف، ستكتشف
+         كيف يمكن أن يكون الفن أداة قوية للشفاء والنمو العاطفي. سنناقش ما هو العلاج
+         الفني وكيف يمكن لخلق الفن أن يساعد في تقليل التوتر، وتحسين المزاج، وتوفير
+         وسيلة للتعبير عن المشاعر التي من الصعب وضعها في كلمات. ستتعلم تقنيات فنية
+         مختلفة يستخدمها المعالجون لمساعدة الأفراد في التعامل مع القلق أو الصدمة أو 
+        الاكتئاب. بحلول نهاية الصف، ستفهم كيف يمكن للفن دعم الصحة العقلية والشفاء.</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>٢٧ مايو</td>
+      <td>يوم الاثنين الساعة 6 مساءً بتوقيت المحيط الهادي</td>
+      <td>Heidi Demello</td>
+      <td>ملزومات شغلی هنر: رزومه و بیانیه هنرمند</td>
+      <td>
+      ین کلاس در مورد کمک به هنرمندان برای ایجاد یک رزومه برجسته و یک بیانیه هنرمند قانع کننده
+       است. ستعلم كيفية عرض مهاراتك وتجاربك وإبداعك بطريقة تجذب الانتباه. يرشدك
+       الصف في كتابة سيرة ذاتية احترافية تبرز إنجازاتك ومشاريعك. كما ستقوم
+       بإنشاء بيان فني يحكي قصتك ويشرح منظورك الفني. في نهاية الصف، ستمتلك
+       الأدوات لتقديم نفسك بثقة للمعارض وجمعيات الفن والمجموعات الفنية.
+
+
+
+
+
+</td>
+    </tr>
+        <tr>
+      <th scope="row">4</th>
+      <td>٢٩ مايو</td>
+      <td>الأربعاء الساعة ٦ مساءً بتوقيت المحيط الهادئ</td>
+      <td>Nicole Haning</td>
+      <td>رسانه های اجتماعی راك با Canva</td>
+      <td>هذا الفصل مخصص للفنانين الذين يرغبون في
+         استخدام كانفا وذكاء وسائل التواصل الاجتماعي لعرض فنونهم! سنعرض لك كيفية إنشاء
+         منشورات ممتازة لإنستغرام، وفيسبوك، وغيرها من المنصات. تعلم كيفية تصميم صور
+         وفيديوهات جذابة لفنك، كتابة وصف يروي قصتك، واستخدام الهاشتاغات المناسبة ليتم
+         اكتشافك من قبل معجبين جدد. نغطي الميزات المجانية في كانفا وبعض الحيل المثيرة
+         (مثل القصص والحلقات!) لجعل محتواك جذابًا. في النهاية، ستحقق نجاحًا كبيرًا
+         على وسائل التواصل الاجتماعي وستتواصل مع جمهور جديد تمامًا يعشق فنك!
+</td>
+    </tr>
+     <tr>
+      <th scope="row">5</th>
+      <td>٣ يونيو</sup></td>
+      <td>يوم الاثنين الساعة 6 مساءً بتوقيت المحيط الهادي</td>
+      <td>Eileen Finn</td>
+      <td>تمويل مشروعك: فن كتابة المنح والجوانب الفنية للمبيعات</td>
+      <td>
+          في هذه الفئة، ستتعلم كيفية كتابة مقترحات
+           الدعم الناجحة لمشاريع الفن. سنغطي خطوات رئيسية مثل البحث عن فرص التمويل،
+           فهم المتطلبات، وإعداد مقترح واضح. ستكتشف كيفية وصف مشروعك الفني وتأثيره،
+           وإنشاء ميزان ميزانية واقعية. بحلول نهاية الفئة، ستعرف كيفية العثور على دعم
+           مالي مناسب وزيادة فرصك في الحصول على تمويل لفنك. سواء كنت مبتدئًا أو لديك 
+          خبرة، ستساعدك هذه الفئة على رفع مشاريعك الفنية إلى مستوى أعلى بدعم مالي.
+          </br>     
+          پس آماده شوید تا تمام اصول اولیه در مورد آماده سازی گالری
+          یا فروش هنر خود را مرور کنید. ما سؤالات مربوط به حمل و نقل، قیمت، چاپ، توزیع 
+          و غیره را بررسی خواهیم کرد تا بتوانید فوراً شروع به فروش آثار هنری خود کنید .
+        </td>
+    </tr>
+<tr>
+      <th scope="row">6</th>
+      <td>٥ يونيو</td>
+      <td>الأربعاء الساعة ٦ مساءً بتوقيت المحيط الهادئ</td>
+      <td>Eileen Finn</td>
+      <td>انشر كمحترف</td>
+      <td>ستقود هذه الدورة بك خلال عملية نشر كتابك الخاص.
+         سوف تتعلم عن الخطوات المختلفة المشاركة فيها، من التحرير 
+        والتخطيط إلى تصميم الغلاف وخيارات الطباعة. سنناقش كيفية
+         اختيار المنصات المناسبة للنشر الذاتي، مثل Amazon Kindle 
+         Direct Publishing أو IngramSpark، وكيفية تسويق كتابك للوصول
+          إلى المزيد من القراء.
+          بحلول نهاية الدورة، ستعرف كيفية إنشاء ونشر وترويج
+          كتابك بشكل مستقل. سواء كنت تكتب أدبًا خياليًا،
+          أو غير خيالي، أو مجموعة من الفنون أو التصوير،
+          فستمنحك هذه الدورة الأدوات لإطلاق كتابك إلى العالم.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+  </body>
+</html>

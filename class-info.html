@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugee Art Show</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500;600;700&family=Julee&family=Kalam:wght@300;400;700&family=Mountains+of+Christmas:wght@400;700&family=Poor+Story&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a095877f3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        h1 {
+        font-family: "Aboreto", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        }
+        .nav-link, .dropdown-item {
+            color: black;
+            transition: color 230ms ease-in-out;
+        }
+
+        .nav-link:hover, .dropdown-item:hover {
+            color: #46a87a;
+        }
+
+        .navbar {
+            background-color: #f5efe7 !important;
+        }
+
+        @media (max-width: 600px) {
+        h1 {
+            font-size: 30px
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        img {
+            max-width: 100%;
+            }
+
+        .row {
+            display: block;
+            text-align: center;
+        }
+
+        th, td {
+
+            font-size: 10px;
+
+        }
+
+      }
+        
+    </style>
+  </head>
+  <body style="background-color: #f5efe7">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="src/art-show-pic.png" style="width: 30px; height: 30px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./class-info.html">Class Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./teachers.html">Teachers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./art-show.html">Artshow</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Languages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">English</a></li>
+               <li><a class="dropdown-item" href="/dari/class-info-dari.html">فارسی دری</a></li>
+              <li><a class="dropdown-item" href="/pashto/class-info-pashto.html">پښتو</a></li>
+              <li><a class="dropdown-item" href="/arabic/class-info-arabic.html">العربية</a></li>
+              <li><a class="dropdown-item" href="/ukrainian/class-info-ukrainian.html">українська</a></li>
+              <li><a class="dropdown-item" href="/spanish/class-info-spanish.html">español</a></li>
+              <li><a class="dropdown-item" href="/hatian-creole/class-info-creole.html">Kreyòl Ayisyen</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="d-flex justify-content-center">
+      <img class="w-100" src="src/class-info-headline.jpg" />
+    </div>
+    <div class="ms-5 me-5 mt-5">
+      <ul style="list-style-type: none">
+
+        <li>
+          <b>Who can join?</b> Anyone who is a refugee living in or around
+          Washington State is encouraged to apply.
+        </li>
+        <li>
+          <b>When?</b> Classes are from May 20<sup>th</sup> - June 5<sup
+            >th</sup
+          >
+          on Mondays & Wednesdays
+        </li>
+        <li><b>Time?</b> 6:00 p.m. - 7:30 p.m. PST</li>
+        <li><b>Where?</b> Online via Zoom</li>
+        <li><b>Cost?</b> Free</li>
+      </ul>
+    </div>
+    <p class="ms-5">Fill out the form below to join the class</p>
+    <p class="ms-5"><a href="https://forms.gle/9wt2MABzgDXJfUKz5" target="_blank">Application Form</a></p>
+    <p class="ms-5">
+      If you have any questions, please contact Eileen Finn
+      <a href="mailto:eileen.f@operationshouldertoshoulder.us"
+        ><i class="fa-solid fa-envelope ms-1" style="font-size: 18px"></i
+      ></a>
+    </p>
+    <div class="d-flex justify-content-center mt-5 mb-2">
+      <h1>Curriculum</h1>
+    </div>
+    <div class="table-responsive-sm table-responsive-md">
+    <table class="table table-success table-striped-columns">
+  <tr>
+      <th scope="col">#</th>
+      <th scope="col">Date</th>
+      <th scope="col">Time</th>
+      <th scope="col">Teacher</th>
+      <th scope="col">Class Title</th>
+      <th scope="col">Course Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>May 20<sup>th</sup></td>
+      <td>Monday at 6:00 p.m. PST</td>
+      <td>Nicole Haning</td>
+      <td>What is art and the gallery process?</td>
+      <td>In this class, you'll learn what art is and how it’s shown in galleries. 
+          We'll talk about what is considered art, the process of a gallery art show,
+          and the elements of a gallery.By the end of this class, you'll know more about what art means and how 
+          the gallery process works. This is a great class if you're curious about 
+          art or thinking of a career in the art world.</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>May 22<sup>nd</sup></td>
+      <td>Wednesday at 6:00 p.m. PST</td>
+      <td>Heidi Demello</td>
+      <td>Art Therapy: Healing Through Creativity</td>
+      <td>In this class, you'll explore how art can be a powerful tool for healing 
+          and emotional growth. We’ll discuss what art therapy is and how creating 
+          art can help reduce stress, improve mood, and offer a way to express feelings 
+          that are hard to put into words. You'll learn different art techniques that 
+          therapists use to help people manage anxiety, trauma, or depression. 
+          By the end of the class, you'll understand how art can support mental health and healing.</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>May 27<sup>th</sup></td>
+      <td>Monday at 6:00 p.m. PST</td>
+      <td>Heidi Demello</td>
+      <td>Art Career Essentials: Resume and Artist Statement</td>
+      <td>This class is all about helping artists create a standout resume and a compelling artist 
+          statement. You'll learn how to showcase your skills, experience, and creativity in a way 
+          that grabs attention. The class will guide you in writing a professional resume that highlights 
+          your achievements and projects. You'll also craft an artist statement that tells your story and 
+          explains your artistic vision. By the end of the class, you'll have the tools to present 
+          yourself confidently to galleries, collectors, and art organizations.</td>
+    </tr>
+        <tr>
+      <th scope="row">4</th>
+      <td>May 29<sup>th</sup></td>
+      <td>Wednesday at 6:00 p.m. PST</td>
+      <td>Nicole Haning</td>
+      <td>Rock Social Media with Canva</td>
+      <td>This class is for artists who want to use Canva and social media smarts to get their art seen!  
+          We'll show you how to create awesome posts for Instagram, Facebook, and other platforms. Learn
+           to design eye-catching pictures and videos of your art, write captions that tell your story, 
+           and use the right hashtags to get discovered by new fans. We'll cover free features in Canva 
+           and some cool tricks (like stories and reels!) to make your content pop. By the end, you'll 
+           be a social media whiz and connect with a whole new audience who loves your art!</td>
+    </tr>
+     <tr>
+      <th scope="row">5</th>
+      <td>June 3<sup>rd</sup></td>
+      <td>Monday at 6:00 p.m. PST</td>
+      <td>Eileen Finn</td>
+      <td>Funding Your Project: The Art of Grant Writing & the Nuts & Bolts of Sales</td>
+      <td>In this class, you'll learn how to write successful grant proposals for art projects. We'll 
+          cover the key steps, like researching grants, understanding requirements, and crafting a clear 
+          proposal. You'll discover how to explain your art project and its impact, and create a budget 
+          that makes sense. By the end of the class, you'll know how to find the right grants and increase 
+          your chances of getting funding for your art. Whether you're a beginner or have some experience, 
+          this class will help you take your art projects to the next level with grant support.
+          </br>
+          Then get ready to go over all the basics about getting gallery ready or selling your art. We'll go over
+          questions regarding shipping, pricing, prints, distribution, etc., so that you can start to sell your
+          art right away. 
+        </td>
+    </tr>
+<tr>
+      <th scope="row">6</th>
+      <td>June 5<sup>th</sup></td>
+      <td>Wednesday at 6:00 p.m. PST</td>
+      <td>Eileen Finn</td>
+      <td>Self-Publish Like a Pro</td>
+      <td>This class will guide you through the process of publishing your own book. You'll learn about 
+          the different steps involved, from editing and layout to cover design and printing options. 
+          We'll discuss how to choose the right platforms for self-publishing, like Amazon Kindle Direct 
+          Publishing or IngramSpark, and how to market your book to reach more readers. By the end of the 
+          class, you'll know how to create, publish, and promote your book independently. Whether you're 
+          writing fiction, non-fiction, or a collection of art or photography, this class will give you 
+          the tools to get your book out into the world.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+  </body>
+</html>
